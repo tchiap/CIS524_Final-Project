@@ -1,0 +1,509 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6876D3A4DFD3DA7DC22C9C61 /* Pods_BlueMarble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E613F5B047D646F242893967 /* Pods_BlueMarble.framework */; };
+		D8074223264492E400F9A456 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8074222264492E400F9A456 /* ImagePicker.swift */; };
+		D80A505926251A7600E06298 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D80A505826251A7600E06298 /* LocationManager.swift */; };
+		D80C0A99262CFB6E00CE2BB4 /* NewsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D80C0A98262CFB6D00CE2BB4 /* NewsView.swift */; };
+		D80C0A9C262D0A2000CE2BB4 /* News.swift in Sources */ = {isa = PBXBuildFile; fileRef = D80C0A9B262D0A2000CE2BB4 /* News.swift */; };
+		D80C0AA4262D0B0100CE2BB4 /* NewsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D80C0AA3262D0B0100CE2BB4 /* NewsViewModel.swift */; };
+		D83061C42639FB2900D8F13C /* SessionStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83061C32639FB2900D8F13C /* SessionStore.swift */; };
+		D83061C7263B077800D8F13C /* ExampleAuthenticationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83061C6263B077800D8F13C /* ExampleAuthenticationView.swift */; };
+		D83061F2263F101B00D8F13C /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83061F1263F101B00D8F13C /* RegisterView.swift */; };
+		D834119826375C22001D685B /* AddToMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D834119726375C22001D685B /* AddToMapView.swift */; };
+		D834119B26386F26001D685B /* ImageLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = D834119A26386F25001D685B /* ImageLoader.swift */; };
+		D834119E2638972F001D685B /* ActionType.swift in Sources */ = {isa = PBXBuildFile; fileRef = D834119D2638972F001D685B /* ActionType.swift */; };
+		D85CA75226370C9E001FE180 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D85CA75126370C9E001FE180 /* LoginView.swift */; };
+		D88A263A2607D5CF009256F3 /* BlueMarbleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D88A26392607D5CF009256F3 /* BlueMarbleApp.swift */; };
+		D88A263C2607D5CF009256F3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D88A263B2607D5CF009256F3 /* ContentView.swift */; };
+		D88A263E2607D5D0009256F3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D88A263D2607D5D0009256F3 /* Assets.xcassets */; };
+		D88A26412607D5D0009256F3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D88A26402607D5D0009256F3 /* Preview Assets.xcassets */; };
+		D8C819F42626030700816F05 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D8C819F32626030700816F05 /* GoogleService-Info.plist */; };
+		D8E1A9BB260C2240003E471B /* GoogleMapsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8E1A9BA260C2240003E471B /* GoogleMapsView.swift */; };
+		D8E34038262DEF4100B99C35 /* Geotag.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8E34037262DEF4100B99C35 /* Geotag.swift */; };
+		D8F0BF90264731770017A8AD /* ActionTypeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8F0BF8F264731760017A8AD /* ActionTypeViewModel.swift */; };
+		D8F949F3262B28E00066936E /* GoogleMaps.plist in Resources */ = {isa = PBXBuildFile; fileRef = D8F949F2262B28E00066936E /* GoogleMaps.plist */; };
+		D8F949F6262B656D0066936E /* GeotagViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8F949F5262B656C0066936E /* GeotagViewModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		882663E09E541B7C37ED2889 /* Pods-BlueMarble.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BlueMarble.debug.xcconfig"; path = "Target Support Files/Pods-BlueMarble/Pods-BlueMarble.debug.xcconfig"; sourceTree = "<group>"; };
+		D8074222264492E400F9A456 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		D80A505826251A7600E06298 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		D80C0A98262CFB6D00CE2BB4 /* NewsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsView.swift; sourceTree = "<group>"; };
+		D80C0A9B262D0A2000CE2BB4 /* News.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = News.swift; sourceTree = "<group>"; };
+		D80C0AA3262D0B0100CE2BB4 /* NewsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsViewModel.swift; sourceTree = "<group>"; };
+		D83061C32639FB2900D8F13C /* SessionStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionStore.swift; sourceTree = "<group>"; };
+		D83061C6263B077800D8F13C /* ExampleAuthenticationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleAuthenticationView.swift; sourceTree = "<group>"; };
+		D83061F1263F101B00D8F13C /* RegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterView.swift; sourceTree = "<group>"; };
+		D834119726375C22001D685B /* AddToMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddToMapView.swift; sourceTree = "<group>"; };
+		D834119A26386F25001D685B /* ImageLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageLoader.swift; sourceTree = "<group>"; };
+		D834119D2638972F001D685B /* ActionType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionType.swift; sourceTree = "<group>"; };
+		D85CA75126370C9E001FE180 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		D88A26362607D5CF009256F3 /* BlueMarble.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BlueMarble.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D88A26392607D5CF009256F3 /* BlueMarbleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlueMarbleApp.swift; sourceTree = "<group>"; };
+		D88A263B2607D5CF009256F3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D88A263D2607D5D0009256F3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D88A26402607D5D0009256F3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D88A26422607D5D0009256F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D8C819F32626030700816F05 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		D8E1A9BA260C2240003E471B /* GoogleMapsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleMapsView.swift; sourceTree = "<group>"; };
+		D8E34037262DEF4100B99C35 /* Geotag.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Geotag.swift; sourceTree = "<group>"; };
+		D8F0BF8F264731760017A8AD /* ActionTypeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionTypeViewModel.swift; sourceTree = "<group>"; };
+		D8F949F2262B28E00066936E /* GoogleMaps.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = GoogleMaps.plist; sourceTree = "<group>"; };
+		D8F949F5262B656C0066936E /* GeotagViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeotagViewModel.swift; sourceTree = "<group>"; };
+		DCEA44470A01174FE6D87661 /* Pods-BlueMarble.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BlueMarble.release.xcconfig"; path = "Target Support Files/Pods-BlueMarble/Pods-BlueMarble.release.xcconfig"; sourceTree = "<group>"; };
+		E613F5B047D646F242893967 /* Pods_BlueMarble.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BlueMarble.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D88A26332607D5CF009256F3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6876D3A4DFD3DA7DC22C9C61 /* Pods_BlueMarble.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		30EAB6A43484EFB778FDFC86 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E613F5B047D646F242893967 /* Pods_BlueMarble.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6CBB2CE249A4C3EEE03FAD6E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				882663E09E541B7C37ED2889 /* Pods-BlueMarble.debug.xcconfig */,
+				DCEA44470A01174FE6D87661 /* Pods-BlueMarble.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		D80C0A9E262D0A6100CE2BB4 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				D8F949F5262B656C0066936E /* GeotagViewModel.swift */,
+				D80C0AA3262D0B0100CE2BB4 /* NewsViewModel.swift */,
+				D8F0BF8F264731760017A8AD /* ActionTypeViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		D88A262D2607D5CF009256F3 = {
+			isa = PBXGroup;
+			children = (
+				D88A26382607D5CF009256F3 /* BlueMarble */,
+				D88A26372607D5CF009256F3 /* Products */,
+				6CBB2CE249A4C3EEE03FAD6E /* Pods */,
+				30EAB6A43484EFB778FDFC86 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D88A26372607D5CF009256F3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D88A26362607D5CF009256F3 /* BlueMarble.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D88A26382607D5CF009256F3 /* BlueMarble */ = {
+			isa = PBXGroup;
+			children = (
+				D80C0A9E262D0A6100CE2BB4 /* ViewModels */,
+				D8C819F726260AE000816F05 /* Models */,
+				D8C819F32626030700816F05 /* GoogleService-Info.plist */,
+				D88A26392607D5CF009256F3 /* BlueMarbleApp.swift */,
+				D88A263B2607D5CF009256F3 /* ContentView.swift */,
+				D88A263D2607D5D0009256F3 /* Assets.xcassets */,
+				D88A26422607D5D0009256F3 /* Info.plist */,
+				D88A263F2607D5D0009256F3 /* Preview Content */,
+				D8E1A9BA260C2240003E471B /* GoogleMapsView.swift */,
+				D80A505826251A7600E06298 /* LocationManager.swift */,
+				D8F949F2262B28E00066936E /* GoogleMaps.plist */,
+				D80C0A98262CFB6D00CE2BB4 /* NewsView.swift */,
+				D85CA75126370C9E001FE180 /* LoginView.swift */,
+				D834119726375C22001D685B /* AddToMapView.swift */,
+				D834119A26386F25001D685B /* ImageLoader.swift */,
+				D83061C32639FB2900D8F13C /* SessionStore.swift */,
+				D83061C6263B077800D8F13C /* ExampleAuthenticationView.swift */,
+				D83061F1263F101B00D8F13C /* RegisterView.swift */,
+				D8074222264492E400F9A456 /* ImagePicker.swift */,
+			);
+			path = BlueMarble;
+			sourceTree = "<group>";
+		};
+		D88A263F2607D5D0009256F3 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				D88A26402607D5D0009256F3 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D8C819F726260AE000816F05 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				D8E34037262DEF4100B99C35 /* Geotag.swift */,
+				D80C0A9B262D0A2000CE2BB4 /* News.swift */,
+				D834119D2638972F001D685B /* ActionType.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D88A26352607D5CF009256F3 /* BlueMarble */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D88A26452607D5D0009256F3 /* Build configuration list for PBXNativeTarget "BlueMarble" */;
+			buildPhases = (
+				6771C2E70C3E62DEB4CC8ADE /* [CP] Check Pods Manifest.lock */,
+				D88A26322607D5CF009256F3 /* Sources */,
+				D88A26332607D5CF009256F3 /* Frameworks */,
+				D88A26342607D5CF009256F3 /* Resources */,
+				A13C86AD80C30E49B5D01AF4 /* [CP] Copy Pods Resources */,
+				54ABB083EAE9AB6F0E34830F /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BlueMarble;
+			productName = BlueMarble;
+			productReference = D88A26362607D5CF009256F3 /* BlueMarble.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D88A262E2607D5CF009256F3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					D88A26352607D5CF009256F3 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = D88A26312607D5CF009256F3 /* Build configuration list for PBXProject "BlueMarble" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D88A262D2607D5CF009256F3;
+			productRefGroup = D88A26372607D5CF009256F3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D88A26352607D5CF009256F3 /* BlueMarble */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D88A26342607D5CF009256F3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8F949F3262B28E00066936E /* GoogleMaps.plist in Resources */,
+				D88A26412607D5D0009256F3 /* Preview Assets.xcassets in Resources */,
+				D88A263E2607D5D0009256F3 /* Assets.xcassets in Resources */,
+				D8C819F42626030700816F05 /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		54ABB083EAE9AB6F0E34830F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BlueMarble/Pods-BlueMarble-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BlueMarble/Pods-BlueMarble-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BlueMarble/Pods-BlueMarble-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6771C2E70C3E62DEB4CC8ADE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BlueMarble-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A13C86AD80C30E49B5D01AF4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BlueMarble/Pods-BlueMarble-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BlueMarble/Pods-BlueMarble-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BlueMarble/Pods-BlueMarble-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D88A26322607D5CF009256F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8074223264492E400F9A456 /* ImagePicker.swift in Sources */,
+				D8E34038262DEF4100B99C35 /* Geotag.swift in Sources */,
+				D80A505926251A7600E06298 /* LocationManager.swift in Sources */,
+				D80C0AA4262D0B0100CE2BB4 /* NewsViewModel.swift in Sources */,
+				D8E1A9BB260C2240003E471B /* GoogleMapsView.swift in Sources */,
+				D80C0A9C262D0A2000CE2BB4 /* News.swift in Sources */,
+				D80C0A99262CFB6E00CE2BB4 /* NewsView.swift in Sources */,
+				D8F949F6262B656D0066936E /* GeotagViewModel.swift in Sources */,
+				D8F0BF90264731770017A8AD /* ActionTypeViewModel.swift in Sources */,
+				D88A263C2607D5CF009256F3 /* ContentView.swift in Sources */,
+				D85CA75226370C9E001FE180 /* LoginView.swift in Sources */,
+				D834119826375C22001D685B /* AddToMapView.swift in Sources */,
+				D83061C42639FB2900D8F13C /* SessionStore.swift in Sources */,
+				D88A263A2607D5CF009256F3 /* BlueMarbleApp.swift in Sources */,
+				D834119B26386F26001D685B /* ImageLoader.swift in Sources */,
+				D83061F2263F101B00D8F13C /* RegisterView.swift in Sources */,
+				D83061C7263B077800D8F13C /* ExampleAuthenticationView.swift in Sources */,
+				D834119E2638972F001D685B /* ActionType.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		D88A26432607D5D0009256F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D88A26442607D5D0009256F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D88A26462607D5D0009256F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 882663E09E541B7C37ED2889 /* Pods-BlueMarble.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"BlueMarble/Preview Content\"";
+				DEVELOPMENT_TEAM = 9B453SZQT4;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = BlueMarble/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = edu.uwp.chiap010.BlueMarble;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		D88A26472607D5D0009256F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DCEA44470A01174FE6D87661 /* Pods-BlueMarble.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"BlueMarble/Preview Content\"";
+				DEVELOPMENT_TEAM = 9B453SZQT4;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = BlueMarble/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = edu.uwp.chiap010.BlueMarble;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D88A26312607D5CF009256F3 /* Build configuration list for PBXProject "BlueMarble" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D88A26432607D5D0009256F3 /* Debug */,
+				D88A26442607D5D0009256F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D88A26452607D5D0009256F3 /* Build configuration list for PBXNativeTarget "BlueMarble" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D88A26462607D5D0009256F3 /* Debug */,
+				D88A26472607D5D0009256F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D88A262E2607D5CF009256F3 /* Project object */;
+}
